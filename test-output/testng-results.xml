@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12722" started-at="2019-01-06T15:53:23Z" finished-at="2019-01-06T15:53:35Z">
+  <suite name="Default suite" duration-ms="13811" started-at="2019-01-12T21:06:15Z" finished-at="2019-01-12T21:06:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12722" started-at="2019-01-06T15:53:23Z" finished-at="2019-01-06T15:53:35Z">
-      <class name="com.techbilling.testcase.ProductNServicesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.techbilling.testcase.ProductNServicesTest@685cb137]" name="setup" is-config="true" duration-ms="9298" started-at="2019-01-06T15:53:23Z" finished-at="2019-01-06T15:53:32Z">
+    <test name="Default test" duration-ms="13811" started-at="2019-01-12T21:06:15Z" finished-at="2019-01-12T21:06:29Z">
+      <class name="com.techbilling.testcase.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.techbilling.testcase.LoginTest@685cb137]" name="setup" is-config="true" duration-ms="5052" started-at="2019-01-12T21:06:15Z" finished-at="2019-01-12T21:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="newproductTest()[pri:1, instance:com.techbilling.testcase.ProductNServicesTest@685cb137]" name="newproductTest" duration-ms="2206" started-at="2019-01-06T15:53:32Z" finished-at="2019-01-06T15:53:34Z">
+        <test-method status="PASS" signature="loginPageTitle()[pri:1, instance:com.techbilling.testcase.LoginTest@685cb137]" name="loginPageTitle" duration-ms="19" started-at="2019-01-12T21:06:20Z" finished-at="2019-01-12T21:06:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newproductTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.techbilling.testcase.ProductNServicesTest@685cb137]" name="teardown" is-config="true" duration-ms="1195" started-at="2019-01-06T15:53:34Z" finished-at="2019-01-06T15:53:35Z">
+        </test-method> <!-- loginPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.techbilling.testcase.LoginTest@685cb137]" name="teardown" is-config="true" duration-ms="986" started-at="2019-01-12T21:06:20Z" finished-at="2019-01-12T21:06:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.techbilling.testcase.ProductNServicesTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.techbilling.testcase.LoginTest@685cb137]" name="setup" is-config="true" duration-ms="4734" started-at="2019-01-12T21:06:21Z" finished-at="2019-01-12T21:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="filloutloginField()[pri:2, instance:com.techbilling.testcase.LoginTest@685cb137]" name="filloutloginField" duration-ms="2142" started-at="2019-01-12T21:06:26Z" finished-at="2019-01-12T21:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutloginField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.techbilling.testcase.LoginTest@685cb137]" name="teardown" is-config="true" duration-ms="852" started-at="2019-01-12T21:06:28Z" finished-at="2019-01-12T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.techbilling.testcase.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
